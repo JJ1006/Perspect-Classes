@@ -18,7 +18,11 @@
 
 .navbar{
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -45,6 +49,7 @@
 .rightNav {
     width: 50%;
     text-align: right;
+    padding: 0 23px;
 }
 
 #search {
@@ -58,4 +63,66 @@
     background: rgba(0, 0, 0, 0.7) url("background.jpg");
     background-size: cover;
     background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.laptop {
+    width: 70%;
+    height: 158px;
+    width: 158px;
+    border: 4px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-big {
+    font-size: 41px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btm-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
 }
